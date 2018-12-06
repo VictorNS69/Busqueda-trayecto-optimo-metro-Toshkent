@@ -14,4 +14,10 @@ algoritmos A\*, IDA\* o BIDA\* .
 - Alejandro Carmona Ayllón
 - Raúl Prieto Acedo
 
+## Nota
+Bajo la carpeta [lib](/lib) se encuentran las librerias que hay que añadir al proyecto para que funcione adecuadamente. Esas librerias son:
 
+	- hamcrest-core-1.3.jar
+	- javabdd_repackaged-1.0b2.jar
+	- junit-4.12.jar
+	- net-datastructures-4-0.jar
