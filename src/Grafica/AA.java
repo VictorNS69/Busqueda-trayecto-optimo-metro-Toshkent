@@ -31,7 +31,7 @@ public class AA {
 		
 		Nodo Pakhtakor_Alisher_R = grafo.addNode("Pakhtakor - Alisher Navoi (linea Roja)", 6, 6);
 		Nodo Pakhtakor_Alisher_Int = grafo.addNode("Pakhtakor - Alisher Navoi (R)", 6, 6);
-		Nodo Pakhtakor_Alisher_Trans = grafo.addNode("Pakhtakor - Alisher Navoi (Azul)", 6, 6);
+		Nodo Pakhtakor_Alisher_Trans = grafo.addNode("Pakhtakor - Alisher Navoi (A)", 6, 6);
 		
 		Nodo Mustakillik = grafo.addNode("Mustakillik Maydoni", 7, 6);
 		
@@ -44,33 +44,33 @@ public class AA {
 		Nodo Buyuk = grafo.addNode("Buyuk Ipak Yuli", 11, 8);
 			
 		// Estaciones linea Azul
-		Nodo Beruni = grafo.addNode("Beruni", 3, 10); //done
-		Nodo Tinchlik = grafo.addNode("Tinchlik", 4, 9); //done
-		Nodo Chorsu = grafo.addNode("Chorsu", 5, 8); //done
-		Nodo Gafur = grafo.addNode("Gafur Gulom", 6, 7); //done
+		Nodo Beruni = grafo.addNode("Beruni", 3, 10); 
+		Nodo Tinchlik = grafo.addNode("Tinchlik", 4, 9); 
+		Nodo Chorsu = grafo.addNode("Chorsu", 5, 8); 
+		Nodo Gafur = grafo.addNode("Gafur Gulom", 6, 7); 
 		
 		Nodo Pakhtakor_Alisher_A = grafo.addNode("Pakhtakor - Alisher Navoi (linea Azul)", 6, 6);
 		
-		Nodo Uzbekistan = grafo.addNode("Uzbekistan", 6, 5); //done
+		Nodo Uzbekistan = grafo.addNode("Uzbekistan", 6, 5); 
 		Nodo Kosmonavtlar = grafo.addNode("Kosmonavtlar", 7, 4);
 		
-		Nodo Ming_Oybek_A = grafo.addNode("Ming Urik - Oybek (Linea Azul)", 8, 4); //done
+		Nodo Ming_Oybek_A = grafo.addNode("Ming Urik - Oybek (Linea Azul)", 8, 4); 
 		Nodo Ming_Oybek_Int = grafo.addNode("Ming Urik - Oybek (A)", 8, 4);
 		Nodo Ming_Oybek_Trans = grafo.addNode("Ming Urik - Oybek (V)", 8, 4);
 		
-		Nodo Toshkent = grafo.addNode("Toshkent", 9, 4); //done
-		Nodo Mashinasozlar= grafo.addNode("Mashinasozlar", 10, 4); //done
-		Nodo Dostlik = grafo.addNode("Dostlik", 11, 4); //done
+		Nodo Toshkent = grafo.addNode("Toshkent", 9, 4); 
+		Nodo Mashinasozlar= grafo.addNode("Mashinasozlar", 10, 4); 
+		Nodo Dostlik = grafo.addNode("Dostlik", 11, 4); 
 		
 		// Estaciones linea Verde
-		Nodo Shakhriston = grafo.addNode("Shakhriston", 8, 10); //done
-		Nodo Bodomzor = grafo.addNode("Bodomzor", 8, 9); //done
-		Nodo Minor = grafo.addNode("Minor", 8, 8); //done
-		Nodo Abdulla = grafo.addNode("Abdulla Kodiriy", 8, 7); //done
+		Nodo Shakhriston = grafo.addNode("Shakhriston", 8, 10); 
+		Nodo Bodomzor = grafo.addNode("Bodomzor", 8, 9); 
+		Nodo Minor = grafo.addNode("Minor", 8, 8); 
+		Nodo Abdulla = grafo.addNode("Abdulla Kodiriy", 8, 7); 
 		
 		Nodo Amir_Yunus_V = grafo.addNode("Amir Temur Hiyoboni - Yunus Rajabiy (linea Verde)", 8, 6);
 		
-		Nodo Ming_Oybek_V = grafo.addNode("Ming Urik - Oybek (Linea Verde)", 8, 4); //done
+		Nodo Ming_Oybek_V = grafo.addNode("Ming Urik - Oybek (Linea Verde)", 8, 4); 
 	
 		// Linea Roja
 		grafo.addEdge (Olmazor, Chilonzor, 60*4, "linea Roja");
@@ -91,11 +91,11 @@ public class AA {
 		grafo.addEdge (Mustakillik, Amir_Yunus_R, 60*2, "linea Roja");
 		
 		//intercambio 
-		grafo.addEdge (Mustakillik, Amir_Yunus_Int, 60*2, "linea Roja");
-		grafo.addEdge (Khamid, Amir_Yunus_Int, 60, "linea Roja");
-		grafo.addEdge (Amir_Yunus_Int, Amir_Yunus_Trans, 60, "Trasbordo");
-		grafo.addEdge (Amir_Yunus_Trans, Abdulla, 60, "linea Verde");
-		grafo.addEdge (Amir_Yunus_Trans, Ming_Oybek_V, 60*4, "linea Verde");
+		//grafo.addEdge (Mustakillik, Amir_Yunus_Int, 60*2, "linea Roja");
+		//grafo.addEdge (Khamid, Amir_Yunus_Int, 60, "linea Roja");
+		//grafo.addEdge (Amir_Yunus_Int, Amir_Yunus_Trans, 60, "Trasbordo");
+		//grafo.addEdge (Amir_Yunus_Trans, Abdulla, 60, "linea Verde");
+		//grafo.addEdge (Amir_Yunus_Trans, Ming_Oybek_A, 60*4, "linea Verde");
 		
 		grafo.addEdge (Amir_Yunus_R, Khamid, 60, "linea Roja");
 		grafo.addEdge (Khamid, Pushkin, 60*2, "linea Roja");
@@ -107,11 +107,11 @@ public class AA {
 		grafo.addEdge (Chorsu, Gafur, 60, "linea Azul");
 		grafo.addEdge (Gafur, Pakhtakor_Alisher_A, 60*2, "linea Azul");
 		
-		grafo.addEdge (Gafur, Pakhtakor_Alisher_Int, 60*2, "linea Azul");
-		grafo.addEdge (Uzbekistan, Pakhtakor_Alisher_Int, 60, "linea Azul");
-		grafo.addEdge (Pakhtakor_Alisher_Int, Pakhtakor_Alisher_Trans, 60, "Trasbordo");
-		grafo.addEdge (Pakhtakor_Alisher_Trans, Bunyodkor, 60*2, "linea Roja");
-		grafo.addEdge (Pakhtakor_Alisher_Trans, Mustakillik, 60*2, "linea Roja");
+		//grafo.addEdge (Gafur, Pakhtakor_Alisher_Int, 60*2, "linea Azul");
+		//grafo.addEdge (Uzbekistan, Pakhtakor_Alisher_Int, 60, "linea Azul");
+		//grafo.addEdge (Pakhtakor_Alisher_Int, Pakhtakor_Alisher_Trans, 60, "Trasbordo");
+		//grafo.addEdge (Pakhtakor_Alisher_Trans, Bunyodkor, 60*2, "linea Roja");
+		//grafo.addEdge (Pakhtakor_Alisher_Trans, Mustakillik, 60*2, "linea Roja");
 		
 		grafo.addEdge (Pakhtakor_Alisher_A, Uzbekistan, 60, "linea Azul");	
 		grafo.addEdge (Uzbekistan, Kosmonavtlar, 60*2, "linea Azul");
@@ -121,6 +121,7 @@ public class AA {
 		grafo.addEdge (Toshkent, Ming_Oybek_Int, 60*2, "linea Azul");
 		grafo.addEdge (Ming_Oybek_Int, Ming_Oybek_Trans, 60, "Trasbordo");
 		grafo.addEdge(Ming_Oybek_Trans, Amir_Yunus_V, 60, "linea Verde");//grafo.addEdge (Amir_Yunus_V, Pakhtakor_Alisher_Int, 60, "linea Verde");//Puede fallar !
+		//grafo.addEdge(Ming_Oybek_Trans, Amir_Yunus_R, 60, "linea Verde");
 		
 		grafo.addEdge (Ming_Oybek_A, Toshkent, 60*2, "linea Azul");
 		grafo.addEdge (Toshkent, Mashinasozlar, 60*2, "linea Azul");
@@ -132,6 +133,7 @@ public class AA {
 		grafo.addEdge(Minor, Abdulla, 60, "linea Verde");
 		grafo.addEdge(Abdulla, Amir_Yunus_V, 60, "linea Verde");
 		
+		//intercambio Amir - Yunus
 		grafo.addEdge (Abdulla, Amir_Yunus_Int, 60, "linea Verde");
 		grafo.addEdge (Ming_Oybek_V, Amir_Yunus_Int, 60, "linea Verde");
 		grafo.addEdge (Amir_Yunus_Int, Amir_Yunus_Trans, 60, "Trasbordo");
@@ -140,10 +142,10 @@ public class AA {
 		
 		grafo.addEdge(Amir_Yunus_V, Ming_Oybek_V, 60*4, "linea Verde");
 		
-		grafo.addEdge (Amir_Yunus_V, Ming_Oybek_Int, 60*4, "linea Verde");
-		grafo.addEdge (Ming_Oybek_Int, Ming_Oybek_Trans, 60, "Trasbordo");
-		grafo.addEdge (Ming_Oybek_Trans, Kosmonavtlar, 60, "linea Azul");
-		grafo.addEdge (Ming_Oybek_Trans, Toshkent, 60*2, "linea Azul");
+		//grafo.addEdge (Amir_Yunus_V, Ming_Oybek_Int, 60*4, "linea Verde");
+		//grafo.addEdge (Ming_Oybek_Int, Ming_Oybek_Trans, 60, "Trasbordo");
+		//grafo.addEdge (Ming_Oybek_Trans, Kosmonavtlar, 60, "linea Azul");
+		//grafo.addEdge (Ming_Oybek_Trans, Toshkent, 60*2, "linea Azul");
 		
 		//fin de grafo
 

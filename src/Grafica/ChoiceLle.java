@@ -30,8 +30,8 @@ public class ChoiceLle extends Applet implements ItemListener {
 
 		/* Decoration */
 		Estaciones [0] = "Estacion de Origen ...";
-		Estaciones [1]= "Abdulla Kordiriy";
-		Estaciones [2]= "Amir Temur Hiyoboni - Yunus Rajabiy";
+		Estaciones [1]= "Abdulla Kodiriy";
+		Estaciones [2]= "Amir Temur Hiyoboni - Yunus Rajabiy (V)";
 		Estaciones [3]= "Beruni";
 		Estaciones [4]= "Bodomzor";
 		Estaciones [5]= "Bunyodkor";
@@ -44,13 +44,13 @@ public class ChoiceLle extends Applet implements ItemListener {
 		Estaciones [12]= "Kosmonavtlar";
 		Estaciones [13]= "Mashinasozlar";
 		Estaciones [14]= "Milliy Bog";
-		Estaciones [15]= "Ming Urik - Oybek";
+		Estaciones [15]= "Ming Urik - Oybek (A)";
 		Estaciones [16]= "Minor";
 		Estaciones [17]= "Mirzo Ulugbek";
 		Estaciones [18]= "Mustakillik Maydoni";
 		Estaciones [19]= "Novza";
 		Estaciones [20]= "Olmazor";
-		Estaciones [21]= "Pakhtakor - Alisher Navoi";
+		Estaciones [21]= "Pakhtakor - Alisher Navoi (R)";
 		Estaciones [22]= "Pushkin";
 		Estaciones [23]= "Shakhriston";
 		Estaciones [24]= "Tinchlik";
