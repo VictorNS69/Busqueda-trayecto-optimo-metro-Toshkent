@@ -16,7 +16,7 @@ public class AA {
 
 	public AA(String salida, String llegada) {
 
-		grafo = new Grafo(true);
+		grafo = new Grafo(true); 
 
 		// Creacion de la linea de metro
 
@@ -39,7 +39,7 @@ public class AA {
 		Nodo Amir_Yunus_Int = grafo.addNode("Amir Temur Hiyoboni - Yunus Rajabiy (R)", 8, 6);
 		Nodo Amir_Yunus_Trans = grafo.addNode("Amir Temur Hiyoboni - Yunus Rajabiy (V)", 8, 6);
 		
-		Nodo Khamid= grafo.addNode("Khamid Alimjan", 9, 6);
+		Nodo Khamid= grafo.addNode("Khamid Alimjan", 9, 6); //Esto deberia estar en 9,7
 		Nodo Pushkin = grafo.addNode("Pushkin", 10, 7);
 		Nodo Buyuk = grafo.addNode("Buyuk Ipak Yuli", 11, 8);
 			
@@ -120,7 +120,7 @@ public class AA {
 		grafo.addEdge (Kosmonavtlar, Ming_Oybek_Int, 60, "linea Azul");
 		grafo.addEdge (Toshkent, Ming_Oybek_Int, 60*2, "linea Azul");
 		grafo.addEdge (Ming_Oybek_Int, Ming_Oybek_Trans, 60, "Trasbordo");
-		grafo.addEdge(Ming_Oybek_Trans, Amir_Yunus_V, 60, "linea Verde");//grafo.addEdge (Amir_Yunus_V, Pakhtakor_Alisher_Int, 60, "linea Verde");//Puede fallar !
+		grafo.addEdge(Ming_Oybek_Trans, Amir_Yunus_V, 60*4, "linea Verde");//grafo.addEdge (Amir_Yunus_V, Pakhtakor_Alisher_Int, 60, "linea Verde");//Puede fallar !
 		//grafo.addEdge(Ming_Oybek_Trans, Amir_Yunus_R, 60, "linea Verde");
 		
 		grafo.addEdge (Ming_Oybek_A, Toshkent, 60*2, "linea Azul");
@@ -136,12 +136,23 @@ public class AA {
 		//intercambio Amir - Yunus
 		grafo.addEdge (Abdulla, Amir_Yunus_Int, 60, "linea Verde");
 		grafo.addEdge (Ming_Oybek_V, Amir_Yunus_Int, 60, "linea Verde");
+		grafo.addEdge (Ming_Oybek_Trans, Amir_Yunus_Int, 60*4, "linea Verde");
 		grafo.addEdge (Amir_Yunus_Int, Amir_Yunus_Trans, 60, "Trasbordo");
 		grafo.addEdge (Amir_Yunus_Trans, Mustakillik, 60*2, "linea Roja");
 		grafo.addEdge (Amir_Yunus_Trans, Khamid, 60, "linea Roja");
 		
 		grafo.addEdge(Amir_Yunus_V, Ming_Oybek_V, 60*4, "linea Verde");
+		/*
+		grafo.addEdge (Bunyodkor, Pakhtakor_Alisher_R, 60*2, "linea Roja");
 		
+		//intercambio Pakhtakor - Alisher
+		grafo.addEdge (Bunyodkor, Pakhtakor_Alisher_Int, 60*2, "linea Roja");
+		grafo.addEdge (Mustakillik, Pakhtakor_Alisher_Int, 60*2, "linea Roja");
+		grafo.addEdge (Pakhtakor_Alisher_Int, Pakhtakor_Alisher_Trans, 60, "Trasbordo");
+		grafo.addEdge (Pakhtakor_Alisher_Trans, Gafur, 60*2, "linea Azul");
+		grafo.addEdge (Pakhtakor_Alisher_Trans, Uzbekistan, 60, "linea Azul");
+		
+		grafo.addEdge (Pakhtakor_Alisher_R, Mustakillik, 60*2, "linea Roja");*/
 		//grafo.addEdge (Amir_Yunus_V, Ming_Oybek_Int, 60*4, "linea Verde");
 		//grafo.addEdge (Ming_Oybek_Int, Ming_Oybek_Trans, 60, "Trasbordo");
 		//grafo.addEdge (Ming_Oybek_Trans, Kosmonavtlar, 60, "linea Azul");
