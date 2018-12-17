@@ -17,6 +17,7 @@ javabdd_repackaged-1.0b2.jar
 junit-4.12.jar
 net-datastructures-4-0.jar
 ```
+En la carpeta [assets](/assets) se encuentra la [memoria](/assets/Memoria.pdf) del proyecto.
 
 ## Ejecutar
 
