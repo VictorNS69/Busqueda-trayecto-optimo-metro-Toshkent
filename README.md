@@ -33,3 +33,6 @@ java -jar MetroToshkent.jar
 
 ## Mapa
 ![Mapa de Toshkent.](/assets/metro.png)
+
+## Licencia
+[Licencia](/LICENSE).
